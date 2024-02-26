@@ -33,3 +33,19 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.custom-radio input {
+    display: none;
+}
+
+.radio-btn {
+    position: relative;
+    width: 234px;
+    height: 260px;
+    margin: 10px;
+    background-color: #222533;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
