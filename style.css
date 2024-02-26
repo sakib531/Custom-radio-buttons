@@ -13,4 +13,23 @@ body {
 .wrapper {
     height: 100vh;
     background-color: #1b1d28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper h2 {
+    margin-bottom: 80px;
+    color: #fff;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.radio-buttons {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
