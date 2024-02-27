@@ -69,6 +69,31 @@ body {
     width: 100%;
     height: 100%;
     user-select: none;
-    overflow: hidden;
 }
 
+.radio-btn h2 {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.radio-btn .skill {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #c3c2c7;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.radio-btn .cheak-icon{
+    width: 30px;
+    height: 30px;
+    background-color: #1b1d28;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
